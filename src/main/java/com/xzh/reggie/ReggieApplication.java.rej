@@ -1,0 +1,13 @@
+diff a/src/main/java/com/xzh/reggie/ReggieApplication.java b/src/main/java/com/xzh/reggie/ReggieApplication.java	(rejected hunks)
+@@ -13,7 +13,10 @@
+ @ServletComponentScan
+ @EnableTransactionManagement
+ public class ReggieApplication {
+-
++    /**
++     * 项目启动
++     * @param args
++     */
+     public static void main(String[] args){
+         SpringApplication.run(ReggieApplication.class,args);
+         log.info("启动成功");
